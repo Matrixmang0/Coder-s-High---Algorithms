@@ -28,5 +28,3 @@ def Kth(k,L) :
       return Kth(k,left)
     elif len(left)<k : # k greater than the number of elements in left wing
       return Kth(k-(len(left)+1),right)
-
-
